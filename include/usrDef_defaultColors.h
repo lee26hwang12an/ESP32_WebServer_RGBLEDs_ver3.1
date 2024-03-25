@@ -1,0 +1,13 @@
+#pragma once
+
+#include <inttypes.h>
+
+uint32_t DEFAULT_breathingColorBank[11] = {
+    0xFF0000, 0xFF7200, 0xF9FF00, 0x74FF00, 0x00FF00,
+    0x00FFAB, 0x00FFFF, 0x0000FF, 0x4500FF, 0xFF00FF,
+    0xFF0086
+};
+
+uint32_t DEFAULT_rainbowColorBank[6] = {
+    0xFF0000, 0xFFFF00, 0x00FF00, 0x00FFFF, 0x0000FF, 0xFF0000
+};
